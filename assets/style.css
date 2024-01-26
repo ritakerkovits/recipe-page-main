@@ -1,6 +1,159 @@
+@font-face {
+  font-family: mainTitleFont;
+  src: url("./fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url("./fonts/outfit/static/Outfit-Regular.ttf");
+}
+
+
+
+body{
+  font-family: mainFont;
+}
+
 .attribution { font-size: 11px; text-align: center; padding: 5px;}
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .container{
-      display: flex;
-      flex-direction: column;
-    }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.intro p{
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+.intro h1{
+  font-family: mainTitleFont;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.prep-time{
+  border-radius: 10px;
+  background-color: #FFF7FC;
+  margin: 20px;
+  padding:5px;
+}
+
+.prep-time h3{
+  color: #7C2D4D;
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+
+.prep-time li{ 
+  padding: 10px;
+}
+
+
+.prep-time li::marker{
+  color: #7C2D4D;
+}
+
+.container h2{
+  color: #7B3C28;
+  margin: 20px;
+  font-family: mainTitleFont;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.ingredients li{
+  padding: 5px;
+}
+
+.ingredients li::marker{
+  color: #7B3C28;
+  font-size: 0.8rem ;
+}
+
+
+.instructions li::marker{
+  color: #7B3C28;
+  font-weight: bold;
+}
+
+.instructions li{
+  padding: 10px;
+}
+
+hr{
+  width: 90%;
+  border: 0.5px solid #d5d5d5;
+}
+
+.nutrition p{
+  margin: 20px;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td{
+  text-align: left;
+  padding: 10px;
+ 
+}
+
+tr{
+  border: 1px solid #d5d5d5;
+}
+
+tr:first-child{
+  border-top:none ;
+}
+
+tr:last-child{
+  border-bottom:none ;
+}
+
+.macros{
+  font-weight: 700;
+  color: #7B3C28;
+}
+
+
+@media all and (min-width: 600px){
+  body{
+    background-color: #F3E5D8;
+  }
+
+  .container{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+  }
+
+  img{
+    border-radius: 10px;
+  }
+}
+
+@media all and (min-width: 768px){
+  .container{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+  }
+
+
+}
