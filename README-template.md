@@ -73,7 +73,7 @@ Besides improving my proficiency in **Flexbox and CSS Grid**, I'm also looking t
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- CSS pseudo-element (https://developer.mozilla.org/en-US/docs/Web/CSS/::marker) - This helped me to select and format the list marker. This website provides a lot of other helpful tools.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
