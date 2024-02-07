@@ -16,7 +16,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -73,8 +72,8 @@ Besides improving my proficiency in **Flexbox and CSS Grid**, I'm also looking t
 
 ### Useful resources
 
-- **CSS pseudo-element** _(https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)_ - This helped me to select and format the list marker. This website provides a lot of other helpful tools.
-- [Flexbox solutions][https://www.example.com](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) and https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - These articles supplemented and helped to enhance the responsive web design using Flexbox. 
+- **CSS pseudo-element** _https://developer.mozilla.org/en-US/docs/Web/CSS/::marker_ - This helped me to select and format the list marker. This website provides a lot of other helpful tools.
+- **Flexbox solutions** _https://developer.mozilla.org/en-US/docs/Web/CSS/flex_ and _https://css-tricks.com/snippets/css/a-guide-to-flexbox/_ - These articles supplemented and helped to enhance the responsive web design using Flexbox. 
 
 
 ## Author
