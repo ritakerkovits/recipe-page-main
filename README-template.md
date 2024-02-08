@@ -57,12 +57,26 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 Discovered the **li::marker pseudo-element** in CSS.
 It allowed precise customization of list markers, enhancing the visual appeal of lists on the website.
 
-Te code I used:
+The code I used:
 ```css
 .ingredients li::marker{
   color: #7B3C28;
   font-size: 0.8rem ;
 }
+```
+
+Utilised the **:nth-child selector** for a table.
+
+The code I used:
+```css
+tr:first-child{
+  border-top:none ;
+}
+
+tr:last-child{
+  border-bottom:none ;
+}
+
 ```
 
 
