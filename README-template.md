@@ -76,9 +76,10 @@ Besides improving my proficiency in **Flexbox and CSS Grid**, I'm also looking t
 
 ### Useful resources
 
-- **CSS pseudo-element** _https://developer.mozilla.org/en-US/docs/Web/CSS/::marker_ - This helped me to select and format the list marker. This website provides a lot of other helpful tools.
-- **Flexbox solutions** _https://developer.mozilla.org/en-US/docs/Web/CSS/flex_ and _https://css-tricks.com/snippets/css/a-guide-to-flexbox/_ - These articles supplemented and helped to enhance the responsive web design using Flexbox. 
-
+- **CSS pseudo-element** -  _https://developer.mozilla.org/en-US/docs/Web/CSS/::marker_ - This helped me to select and format the list marker. This website provides a lot of other helpful tools.
+- **Flexbox solutions** - _https://developer.mozilla.org/en-US/docs/Web/CSS/flex_ and _https://css-tricks.com/snippets/css/a-guide-to-flexbox/_ - These articles supplemented and helped to enhance the responsive web design using Flexbox.
+- **Formatting the borders of the table** - _https://discuss.codecademy.com/t/setting-a-border-for-one-or-two-sides-of-the-element/365302_ - This helped me to set only the top and the bottom borders for each row in the table
+- **Selecting the child element in a table** - _https://www.thoughtco.com/add-internal-lines-to-table-with-css-34_69872 - This helped me to select each child element in a table
 
 ## Author
 
