@@ -12,15 +12,23 @@
 
 body{
   font-family: mainFont;
+  margin: 0;
+  
 }
 
-.attribution { font-size: 11px; text-align: center; padding: 5px;}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  padding: 5px;
+  margin-top: 20px;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
 .container{
   display: flex;
   flex-direction: column;
+  
 }
 
 img{
@@ -100,7 +108,7 @@ hr{
 table{
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 90%;
   border-collapse: collapse;
 }
 
@@ -112,6 +120,8 @@ td{
 
 tr{
   border: 1px solid #d5d5d5;
+  border-left: none;
+  border-right: none;
 }
 
 tr:first-child{
@@ -131,6 +141,7 @@ tr:last-child{
 @media all and (min-width: 600px){
   body{
     background-color: #F3E5D8;
+    margin-top: 50px;
   }
 
   .container{
@@ -150,7 +161,7 @@ tr:last-child{
   .container{
     border-radius: 10px;
     background-color: #fff;
-    width: 30%;
+    width: 40%;
     padding: 20px;
     margin: auto;
   }
