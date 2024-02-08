@@ -14,15 +14,20 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
+### The Challenge
+Recipe page
+This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/ritakerkovits/recipe-page-main/blob/main/README-template.md#screenshot/screenshot.png?=raw=true)
+
+![Solution of the challenge](./solution/screenshot.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -34,71 +39,66 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://ritakerkovits.github.io/recipe-page-main/
+  
 
 ## My process
+
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Discovered the **li::marker pseudo-element** in CSS.
+It allowed precise customization of list markers, enhancing the visual appeal of lists on the website.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+The code I used:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.ingredients li::marker{
+  color: #7B3C28;
+  font-size: 0.8rem ;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Utilised the **:nth-child selector** for a table.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+The code I used:
+```css
+tr:first-child{
+  border-top:none ;
+}
+
+tr:last-child{
+  border-bottom:none ;
+}
+
+```
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In upcoming projects, I intend to sharpen my proficiency in **Flexbox**. While I've utilized this layout technique effectively, I aim to dig deeper into its advanced features.
+Also I would like to apply the **CSS Grid** techniques as well in these kind of projects.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Besides improving my proficiency in **Flexbox and CSS Grid**, I'm also looking to enhance the **HTML structures** in my projects.  I want to make sure my HTML is not just functional but also easy to understand and work with, following best practices.
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- **CSS pseudo-element** -  _https://developer.mozilla.org/en-US/docs/Web/CSS/::marker_ - This helped me to select and format the list marker. This website provides a lot of other helpful tools.
+- **Flexbox solutions** - _https://developer.mozilla.org/en-US/docs/Web/CSS/flex_ and _https://css-tricks.com/snippets/css/a-guide-to-flexbox/_ - These articles supplemented and helped to enhance the responsive web design using Flexbox.
+- **Formatting the borders of the table** - _https://discuss.codecademy.com/t/setting-a-border-for-one-or-two-sides-of-the-element/365302_ - This helped me to set only the top and the bottom borders for each row in the table
+- **Selecting the child element in a table** - _https://www.thoughtco.com/add-internal-lines-to-table-with-css-34_69872 - This helped me to select each child element in a table
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - Rita Kerkovits
+- Frontend Mentor - ritakerkovits _https://www.frontendmentor.io/profile/ritakerkovits_
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
