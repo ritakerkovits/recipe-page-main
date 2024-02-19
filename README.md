@@ -93,6 +93,5 @@ Besides improving my proficiency in **Flexbox and CSS Grid**, I'm also looking t
 
 ## Author
 
-- Website - Rita Kerkovits
 - Frontend Mentor - ritakerkovits _https://www.frontendmentor.io/profile/ritakerkovits_
 
